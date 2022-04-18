@@ -26,6 +26,13 @@
    action: apt name=jenkins state=present
    notify: start jenkins service
  
+ - name: jenkins status check
+   action: service name=jenkins state=started
+   register: myresult
+
+ - name: debugme
+   debug:
+      var: myresult
   
 
      
