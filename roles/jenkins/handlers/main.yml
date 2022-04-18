@@ -3,7 +3,5 @@
    action: service name=jenkins state=started
    register: myresult
 
- - name: debugme
-   debug:
-     var: myresult
+ 
    
