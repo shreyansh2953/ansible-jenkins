@@ -27,7 +27,8 @@
    notify: start jenkins service
  
  - name: jenkins status check
-   shell: 
+   shell:
+   args: 
      cmd: sytemctl status jenkins
    register: myresult
 
