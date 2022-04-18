@@ -1,0 +1,9 @@
+---
+ - name: My test group
+   hosts: test
+   remote_user: ansible
+   become: yes
+   connection: ssh
+   
+   roles:
+     - jenkins
