@@ -2,6 +2,7 @@
  - name: start jenkins service
    action: service name=jenkins state=started
    register: myresult
+   notify: debugme
 
  
    
