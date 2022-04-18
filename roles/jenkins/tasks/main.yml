@@ -29,7 +29,7 @@
  - name: jenkins status check
    shell:
    args: 
-     cmd: sytemctl status jenkins
+     cmd: systemctl status jenkins
    register: myresult
 
  - name: debugme
