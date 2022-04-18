@@ -1,5 +1,8 @@
 ---
-
+ - name: doing update
+   apt:
+     update_cache: yes
+  
  - name: Install some packages
    action: apt name={{ item }} state=present
    with_items: "{{ pkg }}"
