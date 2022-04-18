@@ -29,7 +29,10 @@
  - name: debugme
    debug:
      var: myresult
- 
+
+ - name: debugme2
+   debug:
+     var: myresult2
    
   
 
