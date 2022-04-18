@@ -24,11 +24,10 @@
 
  - name: install jenkins
    action: apt name=jenkins state=present
-   notify: check jenkins status
+   notify: start jenkins service
 
- - name: debugging
-   debug:
-      var: myresult
+ 
+   
   
 
      
