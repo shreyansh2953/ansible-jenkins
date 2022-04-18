@@ -23,6 +23,9 @@
    action: apt name=jenkins state=present
    notify: check jenkins status
 
-
+ - name: debugging
+   debug:
+      var: myresult
+  
 
      

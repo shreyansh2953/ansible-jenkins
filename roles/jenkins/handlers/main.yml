@@ -1,3 +1,4 @@
 ---
  - name: check jenkins status
    action: service name=jenkins state=started
+   register: myresult
