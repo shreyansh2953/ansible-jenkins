@@ -26,10 +26,6 @@
    action: apt name=jenkins state=present
    notify: start jenkins service
  
- - name: debugme
-   debug:
-     var: myresult
-   
   
 
      

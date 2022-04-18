@@ -4,5 +4,9 @@
    register: myresult
    notify: debugme
 
+ - name: debugme
+   debug:
+      var: myresult
+
  
    
