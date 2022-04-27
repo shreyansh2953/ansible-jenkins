@@ -10,11 +10,9 @@
     "provisioners": [
         {
           "type": "ansible",
+          "user" : "ubuntu",
+          "playbook_file": "./playbook/master.yml"
           
-          "playbook_file": "./master.yml",
-          "role_paths": [
-            "./roles/jenkins"
-          ]
         }
       ]
 }
